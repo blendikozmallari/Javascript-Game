@@ -40,7 +40,6 @@ function rockPaperScissors(){
     computerSelection = computerPlay();
     let result = gameRound(playerSelection, computerSelection);
     console.log(result);
-
     if (result.includes("Win")) {
       playerScore += 1;
     } else if (result.includes("Lose")) {
